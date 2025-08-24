@@ -412,12 +412,22 @@ top: 21%;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .svg__size__market {
+        width: 130px;
+        height: 50px;
+        top: 21%;
+        left: -15%;
+    }
+   
     .svg__size__1c_erp {
         width: 66px;
         height: 21px;
         top: 157%;
         left: 144%;
     }
+    
+   
+  
     .svg__size__v19  {
         width: 443px;
         height: 39px;
@@ -427,6 +437,92 @@ top: 21%;
 }
 
 @media (max-width: 575.98px) {
+    .svg__size__1c_erp {
+        width: 66px;
+        height: 21px;
+        top: 157%;
+        left: 144%;
+    }
+    .svg__size__VK_teams {
+        width: 79px;
+        height: 20px;
+        top: 28%;
+        left: 56%;
+    }
+    .svg__size__n_spm {
+        width: 116px;
+        height: 34px;
+        top: 63%;
+        left: 48%;
+        z-index: 100;
+    }
+    .svg__size__1cпредприятие {
+        width: 139px;
+        height: 41px;
+        top: -23%;
+        left: 31%;
+        z-index: 100;
+    }
+    .svg__size__b24 {
+        width: 100px;
+        height: 23px;
+        top: -10%;
+        left: 47%;
+        z-index: 100;
+    }
+    .svg__size__битрикс24 {
+        
+        width: 96px;
+        height: 35px;
+        top: -10%;
+        left: 44%;
+    
+}
+    .svg__size__v15 {
+        width: 50px;
+        height: 28px;
+        top: -8%;
+        left: 14%;
+    }
+    .svg__size__market {
+        width: 130px;
+        height: 50px;
+        top: 25%;
+        left: -5%;
+    }
+    .svg__size__DtaLens {
+        width: 87px;
+        height: 32px;
+        top: 74%;
+        left: 39%;
+    }
+    .svg__size__1cerp2 {
+        width: 66px;
+        height: 21px;
+        top: 46%;
+        left: 80%;
+        z-index: 100;
+    }
+    .svg__size__1c_erp {
+        width: 66px;
+        height: 21px;
+        top: 141%;
+        left: 159%;
+        z-index: 100;
+    }
+    .svg__size__v20 {
+        width: 41px;
+        height: 38px;
+        top: 54%;
+        left: 57%;
+    }
+    .svg__size__boss_k {
+        z-index: 100;
+        width: 132px;
+        height: 24px;
+        top: 21%;
+        left: 41%;
+    }
     .svg__size__v19  {
         width: 400px;
         height: 39px;
