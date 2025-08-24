@@ -1,0 +1,450 @@
+
+
+.icons__texst{
+    /* display: block; */
+    font-weight: bold;
+   
+}
+.section__odoo__bg {
+    background-color: #e3e9f5;
+}
+
+.switch__btn {
+    padding: 3px 15px;
+    font-weight: bold;
+}
+.margin__btn {
+    margin-right: 7px;
+}
+
+.svg__size__v1 {
+    width: 36px;
+    height: 34px;
+    top: 72%;
+    left: 17%;
+}
+.svg__size__market {
+    width:130px ;
+    height:50px ;
+    top: 39%;
+    left: -23%;
+}
+
+.svg__size__yandex {
+    height: 32px;
+    width: 100px;
+    top: -33%;
+    left: -23%;
+}
+
+.svg__size__v2 {
+    /* transform: rotate(70deg) */
+    width: 34px;
+    height: 41px;
+    top: 0%;
+    left: 22%;
+
+}
+
+.svg__size__ds {
+    width: 70px;
+    height: 32px;
+    top: -10%;
+    left: 2%;
+ 
+}
+
+.svg__size__v3 {
+    width: 34px;
+    height: 41px;
+    top: 23%;
+    left: 20%;
+}
+
+.svg__size__b24 {
+    width: 100px;
+    height: 23px;
+    top: -10%;
+    left: 47%;
+}
+
+.svg__size__v4 {
+    width: 38px;
+    height: 39px;
+    top: 23%;
+    left: 61%;
+}
+
+.svg__size__n_spm {
+    width: 116px;
+    height: 34px;
+    top: 63%;
+    left: 48%;
+}
+
+.svg__size__v5 {
+    width: 35px;
+    height: 43px;
+    top: 14%;
+    left: 69%;
+}
+
+.svg__size__flexbe {
+    width: 51px;
+    height: 32px;
+    top: 64%;
+    left: 69%;
+}
+
+.svg__size__v6 {
+    width: 44px;
+    height: 15px;
+    top: 90%;
+    left: 58%;
+}
+
+.svg__size__realty_soft {
+    width: 89px;
+    height: 26px;
+    top: 64%;
+    left: -15%;
+}
+
+.svg__size__v7 {
+    width: 39px;
+    height: 37px;
+    top: 25%;
+    left: 17%;
+}
+
+.svg__size__1c {
+    width: 96px;
+    height: 33px;
+    top: -20%;
+    left: 20%;
+}
+
+.svg__size__v8 {
+    width: 18px;
+    height: 47px;
+    top: 9%;
+    left: 22%;
+}
+
+.svg__size__VK_teams{
+    width: 79px;
+    height: 20px;
+    top: 28%;
+    left: 74%;
+}
+
+.svg__size__v9 {
+    width: 38px;
+    height: 38px;
+    top: 53%;
+    left: 71%;
+}
+
+.svg__size__elma365 {
+    width: 75px;
+    height: 33px;
+    top: -17%;
+    left: 61%;
+}
+.svg__size__v10 {
+    width: 38px;
+    height: 38px;
+    top: 18%;
+    left: 59%;
+}
+
+.svg__size__advanta {
+    width: 73px;
+    height: 24px;
+    top: 38%;
+    left: -18%;
+}
+
+.svg__size__v11 {
+    width: 37px;
+    height: 32px;
+    top: 67%;
+    left: 2%;
+}
+
+.svg__size__harvest {
+    width: 64px;
+    height: 32px;
+    top: 44%;
+    left: -11%;
+}
+
+.svg__size__v12 {
+    width: 41px;
+    height: 21px;
+    top: 19%;
+    left: 10%;
+}
+
+.svg__size__1cпредприятие {
+    width: 139px;
+    height: 41px;
+    top: -23%;
+    left: 31%;
+}
+
+.svg__size__v13 {
+    width: 34px;
+    height: 34px;
+    top: 24%;
+    left: 67%;
+}
+
+.svg__size__1cуправление {
+    width: 128px;
+    height: 40px;
+    top: 67%;
+    left: -40%;
+}
+
+.svg__size__v14 {
+    width: 37px;
+    height: 19px;
+    top: 45%;
+    left: 2%;
+
+}
+
+.svg__size__битрикс24 {
+    width: 96px;
+    height: 35px;
+    top: -10%;
+    left: 59%;
+}
+
+.svg__size__v15 {
+    width: 50px;
+    height: 28px;
+    top: -10%;
+    left: 32%;
+}
+
+.svg__size__tilda {
+    width: 38px;
+    height: 20px;
+    top: 0%;
+    left: 68%;;
+}
+
+.svg__size__v16 {
+    width: 24px;
+    height: 42px;
+    top: 24%;
+    left: 70%;
+}
+
+.svg__size__smm_planner{
+    width: 120px;
+    height: 20px;
+    top: -21%;
+    left: -11%;
+}
+
+.svg__size__v17 {
+    width: 14px;
+    height: 43px;
+    top: 1%;
+    left: 24%;
+}
+
+.svg__size__send_pulse {
+    width: 80px;
+    height: 27px;
+    top: 11%;
+    left: -6%;
+
+}
+
+.svg__size__v18 {
+    width: 36px;
+    height: 31px;
+    top: 41%;
+    left: 10%;
+
+}
+
+.svg__size__1c_erp {
+    width: 66px;
+    height: 21px;
+    top: 181%;
+    left: 197%;
+}
+
+.svg__size__v19 {
+    width: 700px;
+    height: 42px;
+    top: 123%;
+    left: 31%;
+}
+
+.svg__size__boss_k {
+    width: 138px;
+    height: 28px;
+    top: -9%;
+    left: 39%;
+}
+
+.svg__size__v20 {
+    width: 41px;
+    height: 38px;
+    top: 22%;
+    left: 64%;
+
+}
+
+.svg__size__DtaLens {
+    width: 87px;
+    height: 32px;
+    top: 74%;
+    left: 61%;
+
+}
+
+.svg__size__v21 {
+width: 39px;
+height: 49px;
+top: 21%;
+    left: 66%;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .svg__size__v19 {
+        width: 700px;
+        height: 42px;
+        top: 128%;
+        left: 6%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .svg__size__v19  {
+        width: 691px;
+        height: 39px;
+        top: 126%;
+        left: -40%
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .svg__size__market {
+        width: 130px;
+        height: 50px;
+        top: 1%;
+        left: -23%;
+    }
+    .svg__size__v1 {
+        width: 36px;
+        height: 34px;
+        top: 55%;
+        left: 2%;
+    }
+    .svg__size__DtaLens {
+        width: 87px;
+        height: 32px;
+        top: 74%;
+        left: 44%;
+    }
+    .svg__size__boss_k {
+        width: 138px;
+        height: 28px;
+        top: -9%;
+        left: -28%;
+    }
+    .svg__size__битрикс24 {
+        width: 96px;
+        height: 35px;
+        top: -18%;
+        left: 27%;
+    }
+    .svg__size__v15 {
+        width: 50px;
+        height: 28px;
+        top: -19%;
+        left: 2%;
+    }
+    .svg__size__advanta {
+        width: 73px;
+        height: 24px;
+        top: 20%;
+        left: -18%;
+    }
+    .svg__size__v11 {
+        width: 37px;
+        height: 32px;
+        top: 57%;
+        left: 2%;
+    }
+    .svg__size__VK_teams {
+        width: 79px;
+        height: 20px;
+        top: 1%;
+        left: 35%;
+    }
+    .svg__size__v9 {
+        width: 38px;
+        height: 38px;
+        top: 35%;
+        left: 71%; }
+    .svg__size__b24{
+        width: 100px;
+        height: 23px;
+        top: -10%;
+        left: 0%;  
+    }
+    .svg__size__v19  {
+        width: 450px;
+        height: 39px;
+        top: 126%;
+        left: -5%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .svg__size__1c_erp {
+        width: 66px;
+        height: 21px;
+        top: 157%;
+        left: 144%;
+    }
+    .svg__size__v19  {
+        width: 443px;
+        height: 39px;
+        top: 115%;
+        left: 12%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .svg__size__v19  {
+        width: 400px;
+        height: 39px;
+        top: 110%;
+        left: -8%;
+    }
+}
+
+.svg__size__1cerp2{
+    width: 66px;
+    height: 21px;
+    top: 32%;
+    left: 80%;
+}
+
+.svg__size__v22{
+    top: 37%;
+    width: 50px;
+    height: 28px;
+    left: 41%;
+}

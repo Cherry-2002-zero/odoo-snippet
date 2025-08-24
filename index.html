@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odoo_block</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container">
+    <section class="row section__odoo__bg pb-5 pt-5 text-center">
+        <div class=" d-flex justify-content-center pb-5">
+          <div>
+            <button onclick="hideSVG('#svg_element')" type="button" class="btn__hide btn btn-primary  margin__btn  rounded-pill">
+              <span class="switch__btn">с нами</span>
+              
+            </button>
+            <button onclick="showSVG('#svg_element')" type="button" class="btn__show btn btn-outline-secondary rounded-pill"><span class="switch__btn">без нас</span></button>
+          </div>
+        </div>
+            <div class="row pb-4">
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/accounting.svg" class="img-fluid" alt="accounting">
+                <img id="svg_element" class="svg__size__market position-absolute" src="img/market.svg" alt="market">
+                <img id="svg_element" class="svg__size__v1 position-absolute " src="img/Vector-1.svg" alt="Vector-1">
+              </div>
+                <span class="icons__texst">Бухгалтерия</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                  <img src="img/base.svg" class="img-fluid" alt="base">
+                  <img id="svg_element" class="svg__size__yandex position-absolute" src="img/yandex__wiki.svg" alt="yandex__wiki">
+                  <img id="svg_element" class="svg__size__v2 position-absolute" src="img/Vector-2.svg" alt="Vector-2">
+
+              </div>
+                <span class="icons__texst">База&nbsp;знаний</span>
+                
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/signature.svg" class="img-fluid" alt="signature">
+                <img id="svg_element" class="svg__size__ds position-absolute" src="img/ds.svg" alt="ds">
+                <img id="svg_element" class="svg__size__v3 position-absolute" src="img/Vector-3.svg" alt="Vector-3">
+              </div>
+                <span class="icons__texst">Подпись</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/crm.svg" class="img-fluid" alt="crm">
+                <img id="svg_element" class="svg__size__b24 position-absolute" src="img/b24.svg" alt="b24">
+                <img id="svg_element" class="svg__size__v4 position-absolute" src="img/Vector-4.svg" alt="Vector-4">
+              </div>
+                <span class="icons__texst">CRM</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/stydio.svg" class="img-fluid" alt="stydio">
+                <img id="svg_element" class="svg__size__n_spm position-absolute" src="img/n_spm.svg" alt="n_spm">
+                <img id="svg_element" class="svg__size__v5 position-absolute" src="img/Vector-5.svg" alt="Vector-5">
+              </div>
+                <span class="icons__texst">Студия</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/subscriptions.svg" class="img-fluid" alt="subscriptions">
+                <img id="svg_element" class="svg__size__flexbe position-absolute" src="img/flexbe.svg" alt="flexbe">
+                <img id="svg_element" class="svg__size__v6 position-absolute" src="img/Vector-6.svg" alt="Vector-6">
+              </div>
+                <span class="icons__texst">Подписки</span>
+              </div>
+            <!-- </div> -->
+            <!-- <div class="row pb-4"> -->
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/rent.svg" class="img-fluid" alt="rent">
+                <img id="svg_element" class="svg__size__realty_soft position-absolute" src="img/realty_soft.svg" alt="realty_soft">
+                <img id="svg_element" class="svg__size__v7 position-absolute" src="img/Vector-7.svg" alt="Vector-7">
+
+              </div>
+                <span class="icons__texst">Аренда</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/outlet.svg" class="img-fluid" alt="outlet">
+                <img id="svg_element" class="svg__size__1c position-absolute" src="img/1c.svg" alt="1c">
+                <img id="svg_element" class="svg__size__v8 position-absolute" src="img/Vector-8.svg" alt="Vector-8">
+              </div>
+                <span class="icons__texst">Торговая&nbsp;точка</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/communication.svg" class="img-fluid" alt="communication">
+                <img id="svg_element" class="svg__size__VK_teams position-absolute" src="img/VK_teams.svg" alt="VK_teams">
+                <img id="svg_element" class="svg__size__v9 position-absolute" src="img/Vector-9.svg" alt="Vector-9">
+              </div>
+                <span class="icons__texst">Общение</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/documents.svg" class="img-fluid" alt="documents">
+                <img id="svg_element" class="svg__size__elma365 position-absolute" src="img/elma365.svg" alt="elma365">
+                <img id="svg_element" class="svg__size__v10 position-absolute" src="img/Vector-10.svg" alt="Vector-10">
+              </div>
+                <span class="icons__texst">Документы</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/project.svg" class="img-fluid" alt="project">
+                <img id="svg_element" class="svg__size__advanta position-absolute" src="img/advanta.svg" alt="advanta">
+                <img id="svg_element" class="svg__size__v11 position-absolute" src="img/Vector-11.svg" alt="Vector-11">
+              </div>
+                <span class="icons__texst">Проект</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/report_cards.svg" class="img-fluid" alt="report_cards">
+                <img id="svg_element" class="svg__size__harvest position-absolute" src="img/harvest.svg" alt="harvest">
+                <img id="svg_element" class="svg__size__v12 position-absolute" src="img/Vector-12.svg" alt="Vector-12">
+              </div>
+                <span class="icons__texst">Табели</span>
+              </div>
+            <!-- </div> -->
+            <!-- <div class="row pb-4"> -->
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/service.svg" class="img-fluid" alt="service">
+                <img id="svg_element" class="svg__size__1cпредприятие position-absolute" src="img/1cпредприятие.svg" alt="1cпредприятие">
+                <img id="svg_element" class="svg__size__v13 position-absolute" src="img/Vector-13.svg" alt="Vector-13">
+              </div>
+                <span class="icons__texst">Сервисное обслуживание</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/planning.svg" class="img-fluid" alt="planning">
+                <img id="svg_element" class="svg__size__1cуправление position-absolute" src="img/1cуправление.svg" alt="1cуправление">
+                <img id="svg_element" class="svg__size__v14 position-absolute" src="img/Vector-14.svg" alt="Vector-14">
+              </div>
+                <span class="icons__texst">Планирование</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/support_servise.svg" class="img-fluid" alt="support_servise">
+                <img id="svg_element" class="svg__size__битрикс24 position-absolute" src="img/битрикс24.svg" alt="битрикс24">
+                <img id="svg_element" class="svg__size__v15 position-absolute" src="img/Vector-15.svg" alt="Vector-15">
+              </div>
+                <span class="icons__texst">Служба поддержки</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/website.svg" class="img-fluid" alt="website">
+                <img id="svg_element" class="svg__size__tilda position-absolute" src="img/tilda.svg" alt="tilda">
+                <img id="svg_element" class="svg__size__v16 position-absolute" src="img/Vector-16.svg" alt="Vector-16">
+              </div>
+                <span class="icons__texst">Веб-сайт</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/social_media_marketing.svg" class="img-fluid" alt="social_media_marketing">
+                <img id="svg_element" class="svg__size__smm_planner position-absolute" src="img/smm_planner.svg" alt="smm_planner">
+                <img id="svg_element" class="svg__size__v17 position-absolute" src="img/Vector-17.svg" alt="Vector-17">
+              </div>
+                <span class="icons__texst">Маркетинг<br> в соц.сетях</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/marketing_mailings.svg" class="img-fluid" alt="marketing_mailings">
+                <img id="svg_element" class="svg__size__send_pulse position-absolute" src="img/send_pulse.svg" alt="send_pulse">
+                <img id="svg_element" class="svg__size__v18 position-absolute" src="img/Vector-18.svg" alt="Vector-18">
+              </div>
+                <span class="icons__texst">Маркетинговые рассылки</span>
+              </div>
+            <!-- </div> -->
+            <!-- <div class="row"> -->
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/procurement.svg" class="img-fluid" alt="procurement">
+                <img id="svg_element" class="svg__size__1c_erp position-absolute" src="img/1c_erp.svg" alt="1c_erp">
+                <img id="svg_element" class="svg__size__v19 position-absolute" src="img/Vector-19.svg" alt="Vector-19">
+              </div>
+                <span class="icons__texst">Закупки</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/stocks.svg" class="img-fluid" alt="stocks">
+              </div>
+                <span class="icons__texst">Запасы</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/production.svg" class="img-fluid" alt="production">
+              </div>
+                <span class="icons__texst">Производство</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                  <img id="svg_element" class="d-md-none svg__size__1cerp2 position-absolute" src="img/1cerp2.svg" alt="1cerp2">
+                  <img id="svg_element" class="d-md-none svg__size__v22 position-absolute" src="img/Vector-22.svg" alt="Vector-22">
+                <img src="img/sales.svg" class="img-fluid" alt="sales">
+              </div>
+                <span class="icons__texst">Продажи</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/hr.svg" class="img-fluid" alt="hr">
+                <img id="svg_element" class="svg__size__boss_k position-absolute" src="img/boss_k.svg" alt="boss_k">
+                <img id="svg_element" class="svg__size__v20 position-absolute" src="img/Vector-20.svg" alt="Vector-20">
+              </div>
+                <span class="icons__texst">HR</span>
+              </div>
+              <div class="col-4 col-sm-4 col-md-2 pb-4 mb-md-1 mb-sm-5">
+                <div class="w-100 position-relative">
+                <img src="img/dashboards.svg" class="img-fluid" alt="dashboards">
+                <img id="svg_element" class="svg__size__DtaLens position-absolute" src="img/DtaLens.svg" alt="DtaLens">
+                <img id="svg_element" class="svg__size__v21 position-absolute" src="img/Vector-21.svg" alt="Vector-21">
+              </div>
+                <span class="icons__texst">Дашборды</span>
+              </div>
+            </div>
+    </section>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
